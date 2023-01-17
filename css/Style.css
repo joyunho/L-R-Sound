@@ -1,0 +1,61 @@
+
+@import url("../css/fonts.css");
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* Global Classes*/
+
+a{
+    text-decoration: none;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* -xx- Global Classes -xx- */
+
+/* navbar */
+
+.nav{
+    background: #AEAC9A;
+    padding: 0 5rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+}
+
+.nav .nav-brand img{
+    height: 4.5rem;
+    padding-top: 0.1rem;
+}
+
+.nav .social{
+    padding: 1.4rem;
+}
+
+
+/* -xx- navbar -xx- */
